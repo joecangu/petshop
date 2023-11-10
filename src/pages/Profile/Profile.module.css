@@ -1,0 +1,35 @@
+.profile{
+    text-align: center;
+}
+
+.labelAvatar{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.labelAvatar input {
+    display: none;
+}
+
+.labelAvatar span{
+    z-index: 99;
+    position: absolute;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.labelAvatar span:hover{
+    opacity: 1;
+    transform: scale(1.4);
+}
+
+.profile img{
+    margin-bottom: 1em;
+    border-radius: 50%;
+    object-fit: cover;
+}

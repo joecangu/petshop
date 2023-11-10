@@ -1,0 +1,29 @@
+.clientes{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dataResult{
+    background-color: #FFF;
+    border-radius: 2px;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar{
+    display: none;
+}
+
+.dataItem{
+    display: flex;
+    align-items: center;
+    padding: 1px 5px;
+    gap: 1px;
+    cursor: pointer;
+}
+
+.dataItem:hover{
+    background-color: #e9e9e9;
+}

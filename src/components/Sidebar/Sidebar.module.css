@@ -1,0 +1,8 @@
+.sidebar{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
